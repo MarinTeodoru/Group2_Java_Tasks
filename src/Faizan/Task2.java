@@ -10,6 +10,21 @@ package Faizan;
 
 public class Task2 {
     public static void main(String[] args) {
-        System.out.println("hello");
+
+        int num = 30;
+
+        for (int i = 0; i <= num; i++) {
+            if (i % 3 == 0 && i % 5 == 0) {
+                System.out.println("FINRA");
+            } else if (i % 3 == 0) {
+                System.out.println("FIN");
+            } else if (i % 5 == 0) {
+                System.out.println("RA");
+            } else {
+                System.out.println(i + " number is not divisible");
+
+
+            }
+        }
     }
 }
