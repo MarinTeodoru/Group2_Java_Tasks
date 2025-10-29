@@ -1,4 +1,4 @@
-package ramil;
+package Ramil;
 
 /*
      QUESTION 1 -Numbers  ---Odd & Even
