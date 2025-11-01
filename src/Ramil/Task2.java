@@ -24,6 +24,25 @@ public class Task2 {
             } else {
                 System.out.println(i);
             }
+            /* New QUESTION: Write a Java method that prints the numbers from 1 to 20.
+            If the number is divisible by 2, print "A". If the number is
+            divisible by 3, print "B". If the number is divisible by both 2 and 3, print "AB".
+             Otherwise, print the number itself.*/
+
+            int num = 20;
+            for (int j = 1; j <= num; j++) {
+                if (j % 2 == 0 && j % 3 == 0) {
+                    System.out.println(j + "AB");
+                } else if (j % 2 == 0) {
+                    System.out.println(j + "A");
+                } else if (j % 3 == 0) {
+                    System.out.println(j + "B");
+                } else {
+                    System.out.println(j);
+                }
+
+            }
+
         }
     }
 }
