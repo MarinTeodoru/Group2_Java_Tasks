@@ -10,7 +10,7 @@ package instructor;
       identify (6) --> "Even"
      */
 
-public class Task1 {
+public class Task_1_OddorEven {
 
 
 
