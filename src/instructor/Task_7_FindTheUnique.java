@@ -1,4 +1,5 @@
 package instructor;
+
 import java.util.Arrays;
 import java.util.Collections;
 import java.util.LinkedHashMap;
@@ -54,7 +55,8 @@ public class Task_7_FindTheUnique {
 
 
     //solution 3
-    public class UniqueCharacters {
+/*
+    public class Task_7_FindTheUnique{
 
         public static String findUnique(String str) {
             StringBuilder unique = new StringBuilder();
@@ -76,6 +78,7 @@ public class Task_7_FindTheUnique {
         }
     }
 
+*/
 
 
 
