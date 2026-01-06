@@ -14,7 +14,7 @@ public class Task2 {
     public static void main(String[] args) {
 
         Scanner scanner = new Scanner(System.in);
-        int input = 0;
+        int input;
 
         // Ask the user for input between 1 and 30
         while (true) {
@@ -39,7 +39,7 @@ public class Task2 {
         scanner.close();
     }
                     /* The loop will iterate from 1 to the maximum number entered by user
-                         For each number will check if the conditions are true
+                         For each number will check if the given conditions are true
                     */
 
     public static void printFinRa(int max) {
